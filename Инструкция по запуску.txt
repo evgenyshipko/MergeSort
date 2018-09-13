@@ -1,0 +1,8 @@
+Для Windows:
+1) Открываем консоль cmd.exe
+2) Прописываем путь до исполняемых файлов c JDK: 	path c:\Program Files\Java\jdk1.8.0_181\bin
+3) Открываем папку с файлом Main.java: 			cd C:\Users\Evgeny\Desktop\merge sort\src
+4) Компилируем проект: 					javac Main.java
+5) Запускаем программу с параметрами:                   java -classpath . Main -i res.txt a.txt d.txt
+
+(пробные файлы с данными a.txt, b.txt, c.txt находятся в папке "merge sort\src")
